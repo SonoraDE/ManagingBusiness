@@ -409,3 +409,131 @@ nav div:nth-of-type(3) {
   content: url(../img/apple-logo\ 1.svg);
   margin-right: 15px;
 }
+
+.flex-afro {
+  display: flex;
+}
+
+.afro-img {
+  background-image: url(../img/image\ 64.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  width: 50vw;
+  margin: auto;
+}
+
+.afro-text {
+  padding-right: 20vw;
+  margin-top: 15vh;
+  text-align: left;
+}
+
+.afro-text h2 {
+  color: black;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  width: 30vw;
+}
+
+.afro-text p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 30vw;
+  margin-bottom: 5vh;
+}
+
+.start-today {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.start-h {
+  color: black;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 4.6rem;
+  font-weight: 800;
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+
+.start-p {
+  color: #757095;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 30vw;
+  margin: auto;
+}
+
+.start-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 5vw;
+}
+
+/* ! WHITE BOX ! */
+.start-box-one {
+  background-color: gray;
+  width: 25vw;
+  border-radius: 1.6rem;
+  text-align: left;
+}
+
+.start-box-one h2 {
+  color: #05796b;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+}
+
+.start-box-one h3 {
+  color: #282828;
+  font-family: Manrope;
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 1vh;
+}
+
+.start-box-one h4 {
+  color: #8593a3;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.start-box-one p {
+  color: #8593a3;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.start-box-one a {
+  color: #8593a3;
+  font-family: Manrope;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: solid 1px #8593a3;
+  padding: 10px 25px 10px 25px;
+  border-radius: 15px;
+}
+
+/* ! GREEN BOX ! */
+.start-box-two {
+  background-color: #05796b;
+  width: 25vw;
+  border-radius: 1.6rem;
+}
