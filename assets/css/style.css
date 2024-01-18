@@ -1,0 +1,411 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(../fonts/Manrope-Regular.ttf);
+}
+@font-face {
+  font-family: AnekBangla;
+  src: url(../fonts/AnekBangla-Regular.ttf);
+}
+@font-face {
+  font-family: Acme;
+  src: url(../fonts/Acme-Regular.ttf);
+}
+
+.gradient {
+  background: linear-gradient(
+    166deg,
+    rgba(73, 164, 248, 0.24) 10.8%,
+    rgba(15, 209, 186, 0.07) 67.77%
+  );
+
+  filter: blur(100px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 5vh;
+  line-height: 100px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 4rem;
+}
+
+nav div:nth-of-type(1) {
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-family: AnekBangla;
+  font-weight: 700;
+}
+
+nav div:nth-of-type(2) {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-family: Manrope;
+  font-weight: 600;
+}
+
+nav div:nth-of-type(3) {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-family: Manrope;
+  font-weight: 600;
+}
+
+.arrow-after::after {
+  padding-left: 3px;
+  content: url(../img/Vector\ 3.svg);
+}
+
+.orange-btn {
+  font-family: Manrope;
+  color: black;
+  text-decoration: none;
+  background-color: #f57059;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.header-img {
+  background-image: url(../img/Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35vw;
+}
+
+.header-flex h1 {
+  color: black;
+  font-family: Acme;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.header-flex h2 {
+  color: black;
+  font-family: Manrope;
+  font-size: 5rem;
+  font-weight: 1000;
+}
+
+.header-flex p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 5vh;
+}
+
+.green-btn {
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #05796b;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0px 38px 50px 0px rgba(5, 121, 107, 0.2);
+}
+
+.header-stats {
+  display: flex;
+  align-self: flex-start;
+  width: 35vw;
+  margin-top: 5vh;
+}
+
+.header-stats h2 {
+  color: #282828;
+  font-family: Manrope;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.header-stats p {
+  color: #8593a3;
+  font-family: AnekBangla;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.brands h2 {
+  color: black;
+  font-family: Acme;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 3vh;
+}
+
+.brands-img {
+  background-image: url(../img/Logos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.services-content {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.services-content h3 {
+  color: black;
+  font-family: AnekBangla;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.services-content p {
+  color: black;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.grid-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: 10vh;
+  align-items: center;
+  width: 65vw;
+  margin: auto;
+  padding-top: 5vh;
+}
+
+.box {
+  border: 1px solid #e7e7e7;
+  border-radius: 1.5rem;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  width: 15vw;
+  margin: auto;
+}
+
+.box img {
+  background-color: #ececec;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 2vh;
+}
+
+.box-title {
+  color: black;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 10vw;
+  margin-bottom: 2vh;
+}
+
+.box-p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.box-green {
+  background-color: #05796b;
+  border-radius: 1.5rem;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  width: 15vw;
+  height: 18vh;
+}
+
+.box-green-title {
+  color: white;
+  font-family: Manrope;
+  font-size: 3.3rem;
+  font-weight: 700;
+  width: 3vw;
+  margin-top: 3vh;
+}
+
+.box-green-p {
+  color: white;
+  font-family: Manrope;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 1.1vh;
+}
+
+.learn-more h2 {
+  color: black;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 3vh;
+}
+
+.learn-more h4 {
+  color: #757095;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 30vw;
+  margin: auto;
+}
+
+.bird-img {
+  background-image: url(../img/62.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.learn-more-img {
+  background-image: url(../img/Group\ 1000000809.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 60vw;
+  margin: auto;
+}
+
+.learn-more-content {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 60vw;
+  margin: auto;
+  gap: 10vw;
+}
+
+.learn-more-content h3 {
+  color: #282828;
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+.learn-more-content p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10vh;
+}
+
+.project-management {
+  text-align: center;
+}
+
+.project-management h2 {
+  color: #f57059;
+  font-family: AnekBangla;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+.project-management h3 {
+  color: black;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2vh;
+}
+
+.project-management p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3vh;
+}
+
+.button-flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 3vw;
+  margin-bottom: 10vh;
+}
+
+.button-flex img {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.playstore {
+  background-color: #f57059;
+  border-radius: 25px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+  color: white;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.playstore::before {
+  content: url(../img/apple-logo\ 1.svg);
+  margin-right: 15px;
+}
+
+.googleplay {
+  background-color: #05796b;
+  border-radius: 25px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+  color: white;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.googleplay::before {
+  content: url(../img/apple-logo\ 1.svg);
+  margin-right: 15px;
+}
