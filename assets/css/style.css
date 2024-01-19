@@ -235,7 +235,7 @@ nav div:nth-of-type(3) {
 .box-title {
   color: black;
   font-family: Manrope;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   width: 10vw;
   margin-bottom: 2vh;
@@ -350,7 +350,7 @@ nav div:nth-of-type(3) {
 .project-management h2 {
   color: #f57059;
   font-family: AnekBangla;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2vh;
 }
@@ -358,9 +358,11 @@ nav div:nth-of-type(3) {
 .project-management h3 {
   color: black;
   font-family: Manrope;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .project-management p {
@@ -428,7 +430,7 @@ nav div:nth-of-type(3) {
   background-repeat: no-repeat;
   background-size: contain;
   height: 60vh;
-  width: 50vw;
+  width: 35vw;
   margin: auto;
 }
 
@@ -492,6 +494,7 @@ nav div:nth-of-type(3) {
 .start-box-one {
   background-color: rgb(255, 255, 255);
   width: 20vw;
+  min-width: 250px;
   border-radius: 1.6rem;
   text-align: left;
   box-shadow: 0px 8px 80px 0px rgba(167, 167, 167, 0.24);
@@ -512,7 +515,7 @@ nav div:nth-of-type(3) {
 .start-box-one h3 {
   color: #282828;
   font-family: Manrope;
-  font-size: 6.4rem;
+  font-size: 5.5rem;
   font-weight: 700;
   margin-bottom: 1vh;
 }
@@ -598,6 +601,7 @@ nav div:nth-of-type(3) {
 .start-box-two {
   background-color: #05796b;
   width: 20vw;
+  min-width: 250px;
   border-radius: 1.6rem;
   text-align: left;
   padding-left: 3vw;
@@ -618,7 +622,7 @@ nav div:nth-of-type(3) {
 .start-box-two h3 {
   color: white;
   font-family: Manrope;
-  font-size: 6.4rem;
+  font-size: 5.5rem;
   font-weight: 700;
   margin-bottom: 1vh;
 }
