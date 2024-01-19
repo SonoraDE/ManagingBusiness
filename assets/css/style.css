@@ -46,6 +46,14 @@ nav a {
   margin-right: 4rem;
 }
 
+nav img {
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+  margin-right: 20px;
+  display: none;
+}
+
 nav div:nth-of-type(1) {
   font-size: clamp(1rem, 2vw, 2rem);
   font-family: AnekBangla;
@@ -861,3 +869,14 @@ footer h3 {
 }
 
 /* !! MEDIA QUERIES !! */
+@media only screen and (max-width: 1024px) {
+  header nav div:nth-of-type(2) {
+    display: none;
+  }
+  header nav div:nth-of-type(3) a:nth-of-type(1) {
+    display: none;
+  }
+  nav img {
+    display: inline;
+  }
+}
