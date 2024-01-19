@@ -173,6 +173,13 @@ nav div:nth-of-type(3) {
   margin: auto;
 }
 
+.our-services {
+  background-image: url(../img/Vector.png);
+  background-position: top 150px right;
+  background-repeat: no-repeat;
+  background-size: 60% 70%;
+}
+
 .services-content {
   text-align: center;
   width: 50vw;
@@ -215,6 +222,7 @@ nav div:nth-of-type(3) {
   padding-left: 2vw;
   width: 15vw;
   margin: auto;
+  background-color: white;
 }
 
 .box img {
@@ -482,10 +490,14 @@ nav div:nth-of-type(3) {
 
 /* ! WHITE BOX ! */
 .start-box-one {
-  background-color: gray;
-  width: 25vw;
+  background-color: rgb(255, 255, 255);
+  width: 20vw;
   border-radius: 1.6rem;
   text-align: left;
+  box-shadow: 0px 8px 80px 0px rgba(167, 167, 167, 0.24);
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 52vh;
 }
 
 .start-box-one h2 {
@@ -510,14 +522,10 @@ nav div:nth-of-type(3) {
   font-family: Manrope;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 1vh;
+  margin-bottom: 4vh;
 }
 
 .start-box-one p {
-  color: #8593a3;
-  font-family: Manrope;
-  font-size: 1.6rem;
-  font-weight: 500;
   margin-bottom: 1vh;
 }
 
@@ -529,11 +537,321 @@ nav div:nth-of-type(3) {
   border: solid 1px #8593a3;
   padding: 10px 25px 10px 25px;
   border-radius: 15px;
+  text-align: center;
+  margin-left: 2.3vw;
+  text-decoration: none;
+  margin-bottom: 4vh;
+}
+
+.basic-vier {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: #8593a3;
+}
+
+.basic-p-one {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: #8593a3;
+}
+
+.basic-p-one::before {
+  content: url(../img/check-circle.png);
+  padding-right: 1vw;
+}
+
+.basic-p-two {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: #929292;
+}
+
+.basic-p-two::before {
+  content: url(../img/check-circle.png);
+  padding-right: 1vw;
+}
+
+.basic-p-three {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: #929292;
+}
+
+.basic-p-three::before {
+  content: url(../img/cross-circle.png);
+  padding-right: 1vw;
+}
+
+.basic-p-four {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: #a3a3a3;
+  padding-bottom: 4vh;
+}
+
+.basic-p-four::before {
+  content: url(../img/cross-circle.png);
+  padding-right: 1vw;
 }
 
 /* ! GREEN BOX ! */
 .start-box-two {
   background-color: #05796b;
-  width: 25vw;
+  width: 20vw;
   border-radius: 1.6rem;
+  text-align: left;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 52vh;
+  box-shadow: 0px 8px 80px 0px rgba(5, 121, 107, 0.52);
+}
+
+.start-box-two h2 {
+  color: white;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+}
+
+.start-box-two h3 {
+  color: white;
+  font-family: Manrope;
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 1vh;
+}
+
+.start-box-two h4 {
+  color: white;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 6vh;
+}
+
+.start-box-two p {
+  margin-bottom: 1vh;
+}
+
+.start-box-two a {
+  color: white;
+  font-family: Manrope;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: solid 1px white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 2.3vw;
+  text-decoration: none;
+  margin-bottom: 4vh;
+}
+
+.premium-vier {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.premium-p-one {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.premium-p-one::before {
+  content: url(../img/check-circle-white.svg);
+  padding-right: 1vh;
+}
+
+.premium-p-two {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.premium-p-two::before {
+  content: url(../img/check-circle-white.svg);
+  padding-right: 1vh;
+}
+
+.premium-p-three {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.premium-p-three::before {
+  content: url(../img/check-circle-white.svg);
+  padding-right: 1vh;
+}
+
+.premium-p-four {
+  font-family: Manrope;
+  font-size: 1.6rem;
+  color: white;
+  padding-bottom: 4vh;
+}
+
+.premium-p-four::before {
+  content: url(../img/check-circle-white.svg);
+  padding-right: 1vh;
+}
+
+.testimonials {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.testimonials-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-img {
+  background-image: url(../img/Group\ 1000000804.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40vw;
+  height: 50vh;
+  margin: auto;
+}
+
+.testimonials-text img {
+  margin-bottom: 1vh;
+}
+
+.testimonials h2 {
+  color: #3734a9;
+  text-align: center;
+  font-family: AnekBangla;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 10vh;
+}
+
+.testimonials h3 {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 5vh;
+}
+
+.testimonials-info {
+  color: #1b1c31;
+  font-family: Manrope;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 30vw;
+  margin-bottom: 2vh;
+}
+
+.testimonials-name {
+  color: #000;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 8vw;
+}
+
+.testimonials-ceo {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.discover {
+  text-align: center;
+  background-color: #05796b;
+  box-shadow: 0px 38px 50px 0px rgba(5, 121, 107, 0.2);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  border-radius: 1.6rem;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.discover h2 {
+  color: white;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 5.6rem;
+  font-weight: 800;
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.discover-btn {
+  text-decoration: none;
+  background-color: #f57059;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  font-family: AnekBangla;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 10vh;
+}
+
+footer section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+footer section h2 {
+  color: #181433;
+  font-family: Manrope;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+footer section p {
+  color: #181433;
+  font-family: Manrope;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+footer h3 {
+  text-align: center;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.footer-cont {
+  margin-bottom: 2vh;
+}
+
+.danial-h p {
+  font-size: 1.3rem;
+}
+
+.footer-img {
+  background-image: url(../img/Group\ 169.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2vh;
+  margin-top: 3vh;
 }
